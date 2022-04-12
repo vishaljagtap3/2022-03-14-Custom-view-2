@@ -7,7 +7,14 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnRefresh"
+        android:text="Refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <com.aavidsoft.customview2.TaskView
+        android:id="@+id/taskView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Pay Bills"
